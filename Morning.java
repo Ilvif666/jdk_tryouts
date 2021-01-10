@@ -1,3 +1,4 @@
+/** класс дляприветствия типа "bad morning" */
 public class Morning extends Hello {
   public void say() {
     System.out.println("Bad morning, " + name + "!!!!!11");
