@@ -1,18 +1,14 @@
 public class Hello {
-  public static void main(String[] args) {
-    System.out.println("Привет, мир!");
-    }
+  private String name;
+  public Hello() {
+    name = "peace";
+  }
+
+  public void setName(String s) {
+    name = s;
+  }
+
+  public void say() {
+    System.out.println("Hello, " + name + "!");
+  }
 }
-/*
-Обязательные требования:
-1) Имя файла, содержащего код программы, должно совпадать с именем класса
-2) Файл должен иметь расширение .java
-3) Заглавные и строчные буквы различаются
-Компиляция производится с помощью компилятора javac. При этом создается файл
-Hello.class, содержащий байт-код.
-> javac Hello.java
-Запуск программы осуществляется с помощью интерпретатора java. При этом расширение не
-указывается. При запуске управление передается методу main.
-> java Hello
-Привет, мир!
-*/
