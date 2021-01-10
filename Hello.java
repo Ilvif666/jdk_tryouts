@@ -1,7 +1,7 @@
 public class Hello {
-  private String name;
+  protected String name;
   public Hello() {
-    name = "peace";
+    name = "world";
   }
 
   public void setName(String s) {
