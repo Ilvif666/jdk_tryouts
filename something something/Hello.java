@@ -1,7 +1,7 @@
 public class Hello {
-  private String name;
+  private static String name;
   public static void main(String[] args) {
-    for (String s:args) {
+    for (String s : args) {
       name = s;
       say();
     }
